@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+      <FontInfo relative="true">
+        <Font component="Form" property="font" relativeSize="true" size="0"/>
+      </FontInfo>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="countryLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="addressLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="stateLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cityLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="streetAddressLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="zipLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="cityTextField" alignment="0" max="32767" attributes="1"/>
+                  <Component id="streetAddressTextField" alignment="0" max="32767" attributes="1"/>
+                  <Component id="zipTextField" alignment="0" pref="246" max="32767" attributes="1"/>
+                  <Component id="stateComboBox" alignment="0" max="32767" attributes="1"/>
+                  <Component id="countryComboBox" alignment="0" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="addressLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="countryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="countryComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="stateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stateComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="zipTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="streetAddressLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="zipLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="streetAddressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="addressLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font bold="true" component="addressLabel" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.addressLabel.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="countryLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="countryLabel" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.countryLabel.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stateLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="stateLabel" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.stateLabel.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cityLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="cityLabel" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.cityLabel.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="countryComboBox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="countryComboBox" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="236">
+            <StringItem index="0" value="--Select--"/>
+            <StringItem index="1" value="Aland Islands"/>
+            <StringItem index="2" value="Albania"/>
+            <StringItem index="3" value="Algeria"/>
+            <StringItem index="4" value="Andorra"/>
+            <StringItem index="5" value="Angola"/>
+            <StringItem index="6" value="Anguilla"/>
+            <StringItem index="7" value="Antarctica"/>
+            <StringItem index="8" value="Antigua and Barbuda"/>
+            <StringItem index="9" value="Argentina"/>
+            <StringItem index="10" value="Armenia"/>
+            <StringItem index="11" value="Aruba"/>
+            <StringItem index="12" value="Australia"/>
+            <StringItem index="13" value="Austria"/>
+            <StringItem index="14" value="Azerbaijan"/>
+            <StringItem index="15" value="Bahamas"/>
+            <StringItem index="16" value="Bahrain"/>
+            <StringItem index="17" value="Bangladesh"/>
+            <StringItem index="18" value="Barbados"/>
+            <StringItem index="19" value="Belarus"/>
+            <StringItem index="20" value="Belgium"/>
+            <StringItem index="21" value="Belize"/>
+            <StringItem index="22" value="Benin"/>
+            <StringItem index="23" value="Bermuda"/>
+            <StringItem index="24" value="Bhutan"/>
+            <StringItem index="25" value="Bolivia"/>
+            <StringItem index="26" value="Bosnia and Herzegovina"/>
+            <StringItem index="27" value="Botswana"/>
+            <StringItem index="28" value="Bouvet Island"/>
+            <StringItem index="29" value="Brazil"/>
+            <StringItem index="30" value="British Indian Ocean Territory"/>
+            <StringItem index="31" value="Brunei Darussalam"/>
+            <StringItem index="32" value="Bulgaria"/>
+            <StringItem index="33" value="Burkina Faso"/>
+            <StringItem index="34" value="Burundi"/>
+            <StringItem index="35" value="Cambodia"/>
+            <StringItem index="36" value="Cameroon"/>
+            <StringItem index="37" value="Canada"/>
+            <StringItem index="38" value="Cape Verde"/>
+            <StringItem index="39" value="Cayman Islands"/>
+            <StringItem index="40" value="Central African Republic"/>
+            <StringItem index="41" value="Chad"/>
+            <StringItem index="42" value="Chile"/>
+            <StringItem index="43" value="China"/>
+            <StringItem index="44" value="Christmas Island"/>
+            <StringItem index="45" value="Cocos (Keeling) Islands"/>
+            <StringItem index="46" value="Colombia"/>
+            <StringItem index="47" value="Comoros"/>
+            <StringItem index="48" value="Congo"/>
+            <StringItem index="49" value="Congo, The Democratic Republic of the"/>
+            <StringItem index="50" value="Cook Islands"/>
+            <StringItem index="51" value="Costa Rica"/>
+            <StringItem index="52" value="Cote d Ivoire"/>
+            <StringItem index="53" value="Croatia"/>
+            <StringItem index="54" value="Cuba"/>
+            <StringItem index="55" value="Cyprus"/>
+            <StringItem index="56" value="Czech Republic"/>
+            <StringItem index="57" value="Denmark"/>
+            <StringItem index="58" value="Djibouti"/>
+            <StringItem index="59" value="Dominica"/>
+            <StringItem index="60" value="Dominican Republic"/>
+            <StringItem index="61" value="Ecuador"/>
+            <StringItem index="62" value="Egypt"/>
+            <StringItem index="63" value="El Salvador"/>
+            <StringItem index="64" value="Equatorial Guinea"/>
+            <StringItem index="65" value="Eritrea"/>
+            <StringItem index="66" value="Estonia"/>
+            <StringItem index="67" value="Ethiopia"/>
+            <StringItem index="68" value="Falkland Islands (Malvinas)"/>
+            <StringItem index="69" value="Faroe Islands"/>
+            <StringItem index="70" value="Fiji"/>
+            <StringItem index="71" value="Finland"/>
+            <StringItem index="72" value="France"/>
+            <StringItem index="73" value="French Guiana"/>
+            <StringItem index="74" value="French Polynesia"/>
+            <StringItem index="75" value="French Southern Territories"/>
+            <StringItem index="76" value="Gabon"/>
+            <StringItem index="77" value="Gambia"/>
+            <StringItem index="78" value="Georgia"/>
+            <StringItem index="79" value="Germany"/>
+            <StringItem index="80" value="Ghana"/>
+            <StringItem index="81" value="Gibraltar"/>
+            <StringItem index="82" value="Greece"/>
+            <StringItem index="83" value="Greenland"/>
+            <StringItem index="84" value="Grenada"/>
+            <StringItem index="85" value="Guadeloupe"/>
+            <StringItem index="86" value="Guatemala"/>
+            <StringItem index="87" value="Guernsey"/>
+            <StringItem index="88" value="Guinea"/>
+            <StringItem index="89" value="Guinea-Bissau"/>
+            <StringItem index="90" value="Guyana"/>
+            <StringItem index="91" value="Haiti"/>
+            <StringItem index="92" value="Heard Island and McDonald Islands"/>
+            <StringItem index="93" value="Holy See (Vatican City State)"/>
+            <StringItem index="94" value="Honduras"/>
+            <StringItem index="95" value="Hong Kong"/>
+            <StringItem index="96" value="Hungary"/>
+            <StringItem index="97" value="Iceland"/>
+            <StringItem index="98" value="India"/>
+            <StringItem index="99" value="Indonesia"/>
+            <StringItem index="100" value="Iran"/>
+            <StringItem index="101" value="Iraq"/>
+            <StringItem index="102" value="Ireland"/>
+            <StringItem index="103" value="Isle of Man"/>
+            <StringItem index="104" value="Israel"/>
+            <StringItem index="105" value="Italy"/>
+            <StringItem index="106" value="Jamaica"/>
+            <StringItem index="107" value="Japan"/>
+            <StringItem index="108" value="Jersey"/>
+            <StringItem index="109" value="Jordan"/>
+            <StringItem index="110" value="Kazakhstan"/>
+            <StringItem index="111" value="Kenya"/>
+            <StringItem index="112" value="Kiribati"/>
+            <StringItem index="113" value="Korea, Democratic Peoples Republic of"/>
+            <StringItem index="114" value="Korea, Republic of"/>
+            <StringItem index="115" value="Kuwait"/>
+            <StringItem index="116" value="Kyrgyzstan"/>
+            <StringItem index="117" value="Lao Peoples Democratic Republic"/>
+            <StringItem index="118" value="Latvia"/>
+            <StringItem index="119" value="Lebanon"/>
+            <StringItem index="120" value="Lesotho"/>
+            <StringItem index="121" value="Liberia"/>
+            <StringItem index="122" value="Libyan Arab Jamahiriya"/>
+            <StringItem index="123" value="Liechtenstein"/>
+            <StringItem index="124" value="Lithuania"/>
+            <StringItem index="125" value="Luxembourg"/>
+            <StringItem index="126" value="Macao"/>
+            <StringItem index="127" value="Macedonia, The Former Yugoslav Republic of"/>
+            <StringItem index="128" value="Madagascar"/>
+            <StringItem index="129" value="Malawi"/>
+            <StringItem index="130" value="Malaysia"/>
+            <StringItem index="131" value="Maldives"/>
+            <StringItem index="132" value="Mali"/>
+            <StringItem index="133" value="Malta"/>
+            <StringItem index="134" value="Martinique"/>
+            <StringItem index="135" value="Mauritania"/>
+            <StringItem index="136" value="Mauritius"/>
+            <StringItem index="137" value="Mayotte"/>
+            <StringItem index="138" value="Mexico"/>
+            <StringItem index="139" value="Moldova, Republic of"/>
+            <StringItem index="140" value="Monaco"/>
+            <StringItem index="141" value="Mongolia"/>
+            <StringItem index="142" value="Montserrat"/>
+            <StringItem index="143" value="Morocco"/>
+            <StringItem index="144" value="Mozambique"/>
+            <StringItem index="145" value="Myanmar"/>
+            <StringItem index="146" value="Namibia"/>
+            <StringItem index="147" value="Nauru"/>
+            <StringItem index="148" value="Nepal"/>
+            <StringItem index="149" value="Netherlands"/>
+            <StringItem index="150" value="Netherlands Antilles"/>
+            <StringItem index="151" value="New Caledonia"/>
+            <StringItem index="152" value="New Zealand"/>
+            <StringItem index="153" value="Nicaragua"/>
+            <StringItem index="154" value="Niger"/>
+            <StringItem index="155" value="Nigeria"/>
+            <StringItem index="156" value="Niue"/>
+            <StringItem index="157" value="Norfolk Island"/>
+            <StringItem index="158" value="Norway"/>
+            <StringItem index="159" value="Oman"/>
+            <StringItem index="160" value="Pakistan"/>
+            <StringItem index="161" value="Palestinian Territory,Occupied"/>
+            <StringItem index="162" value="Panama"/>
+            <StringItem index="163" value="Papua New Guinea"/>
+            <StringItem index="164" value="Paraguay"/>
+            <StringItem index="165" value="Peru"/>
+            <StringItem index="166" value="Philippines"/>
+            <StringItem index="167" value="Pitcairn"/>
+            <StringItem index="168" value="Poland"/>
+            <StringItem index="169" value="Portugal"/>
+            <StringItem index="170" value="Qatar"/>
+            <StringItem index="171" value="Reunion"/>
+            <StringItem index="172" value="Romania"/>
+            <StringItem index="173" value="Russian Federation"/>
+            <StringItem index="174" value="Rwanda"/>
+            <StringItem index="175" value="Saint Helena"/>
+            <StringItem index="176" value="Saint Kitts and Nevis"/>
+            <StringItem index="177" value="Saint Lucia"/>
+            <StringItem index="178" value="Saint Pierre and Miquelon"/>
+            <StringItem index="179" value="Saint Vincent and the Grenadines"/>
+            <StringItem index="180" value="Samoa"/>
+            <StringItem index="181" value="San Marino"/>
+            <StringItem index="182" value="Sao Tome and Principe"/>
+            <StringItem index="183" value="Saudi Arabia"/>
+            <StringItem index="184" value="Senegal"/>
+            <StringItem index="185" value="Serbia and Montenegro"/>
+            <StringItem index="186" value="Seychelles"/>
+            <StringItem index="187" value="Sierra Leone"/>
+            <StringItem index="188" value="Singapore"/>
+            <StringItem index="189" value="Slovakia"/>
+            <StringItem index="190" value="Slovenia"/>
+            <StringItem index="191" value="Solomon Islands"/>
+            <StringItem index="192" value="Somalia"/>
+            <StringItem index="193" value="South Africa"/>
+            <StringItem index="194" value="South Georgia and the South Sandwich Islands"/>
+            <StringItem index="195" value="Spain"/>
+            <StringItem index="196" value="Sri Lanka"/>
+            <StringItem index="197" value="Sudan"/>
+            <StringItem index="198" value="Suriname"/>
+            <StringItem index="199" value="Svalbard and Jan Mayen"/>
+            <StringItem index="200" value="Swaziland"/>
+            <StringItem index="201" value="Sweden"/>
+            <StringItem index="202" value="Switzerland"/>
+            <StringItem index="203" value="Syrian Arab Republic"/>
+            <StringItem index="204" value="Taiwan"/>
+            <StringItem index="205" value="Tajikistan"/>
+            <StringItem index="206" value="Tanzania, United Republic of"/>
+            <StringItem index="207" value="Thailand"/>
+            <StringItem index="208" value="Timor-Leste"/>
+            <StringItem index="209" value="Togo"/>
+            <StringItem index="210" value="Tokelau"/>
+            <StringItem index="211" value="Tonga"/>
+            <StringItem index="212" value="Trinidad and Tobago"/>
+            <StringItem index="213" value="Tunisia"/>
+            <StringItem index="214" value="Turkey"/>
+            <StringItem index="215" value="Turkmenistan"/>
+            <StringItem index="216" value="Turks and Caicos Islands"/>
+            <StringItem index="217" value="Tuvalu"/>
+            <StringItem index="218" value="Uganda"/>
+            <StringItem index="219" value="Ukraine"/>
+            <StringItem index="220" value="United Arab Emirates"/>
+            <StringItem index="221" value="United Kingdom"/>
+            <StringItem index="222" value="United States"/>
+            <StringItem index="223" value="United States Minor Outlying Islands"/>
+            <StringItem index="224" value="Uruguay"/>
+            <StringItem index="225" value="Uzbekistan"/>
+            <StringItem index="226" value="Vanuatu"/>
+            <StringItem index="227" value="Venezuela"/>
+            <StringItem index="228" value="Viet Nam"/>
+            <StringItem index="229" value="Virgin Islands, British"/>
+            <StringItem index="230" value="Wallis and Futuna"/>
+            <StringItem index="231" value="Western Sahara"/>
+            <StringItem index="232" value="Yemen"/>
+            <StringItem index="233" value="Zambia"/>
+            <StringItem index="234" value="Zimbabwe"/>
+            <StringItem index="235" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="countryComboBoxItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="streetAddressLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="streetAddressLabel" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.streetAddressLabel.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zipLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="zipLabel" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.zipLabel.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="stateComboBox">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="stateComboBox" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="62">
+            <StringItem index="0" value="--Select--"/>
+            <StringItem index="1" value="ALASKA"/>
+            <StringItem index="2" value="AMERICAN SAMOA"/>
+            <StringItem index="3" value="ARIZONA"/>
+            <StringItem index="4" value="ARKANSAS"/>
+            <StringItem index="5" value="ARMED FORCES AMERICAS"/>
+            <StringItem index="6" value="ARMED FORCES EUROPE"/>
+            <StringItem index="7" value="ARMED FORCES PACIFIC"/>
+            <StringItem index="8" value="CALIFORNIA"/>
+            <StringItem index="9" value="COLORADO"/>
+            <StringItem index="10" value="CONNECTICUT"/>
+            <StringItem index="11" value="DELAWARE"/>
+            <StringItem index="12" value="DISTRICT OF COLUMBIA"/>
+            <StringItem index="13" value="FEDERATED STATES OF MICRONESIA"/>
+            <StringItem index="14" value="FLORIDA"/>
+            <StringItem index="15" value="GEORGIA"/>
+            <StringItem index="16" value="GUAM"/>
+            <StringItem index="17" value="HAWAII"/>
+            <StringItem index="18" value="IDAHO"/>
+            <StringItem index="19" value="ILLINOIS"/>
+            <StringItem index="20" value="INDIANA"/>
+            <StringItem index="21" value="IOWA"/>
+            <StringItem index="22" value="KANSAS"/>
+            <StringItem index="23" value="KENTUCKY"/>
+            <StringItem index="24" value="LOUISIANA"/>
+            <StringItem index="25" value="MAINE"/>
+            <StringItem index="26" value="MARSHALL ISLANDS"/>
+            <StringItem index="27" value="MARYLAND"/>
+            <StringItem index="28" value="MASSACHUSETTS"/>
+            <StringItem index="29" value="MICHIGAN"/>
+            <StringItem index="30" value="MINNESOTA"/>
+            <StringItem index="31" value="MISSISSIPPI"/>
+            <StringItem index="32" value="MISSOURI"/>
+            <StringItem index="33" value="MONTANA"/>
+            <StringItem index="34" value="NEBRASKA"/>
+            <StringItem index="35" value="NEVADA"/>
+            <StringItem index="36" value="NEW HAMPSHIRE"/>
+            <StringItem index="37" value="NEW JERSEY"/>
+            <StringItem index="38" value="NEW MEXICO"/>
+            <StringItem index="39" value="NEW YORK"/>
+            <StringItem index="40" value="NORTH CAROLINA"/>
+            <StringItem index="41" value="NORTH DAKOTA"/>
+            <StringItem index="42" value="NORTHERN MARIANA ISLANDS"/>
+            <StringItem index="43" value="OHIO"/>
+            <StringItem index="44" value="OKLAHOMA"/>
+            <StringItem index="45" value="OREGON"/>
+            <StringItem index="46" value="PALAU"/>
+            <StringItem index="47" value="PENNSYLVANIA"/>
+            <StringItem index="48" value="PUERTO RICO"/>
+            <StringItem index="49" value="RHODE ISLAND"/>
+            <StringItem index="50" value="SOUTH CAROLINA"/>
+            <StringItem index="51" value="SOUTH DAKOTA"/>
+            <StringItem index="52" value="TENNESSEE"/>
+            <StringItem index="53" value="TEXAS"/>
+            <StringItem index="54" value="UTAH"/>
+            <StringItem index="55" value="VERMONT"/>
+            <StringItem index="56" value="VIRGIN ISLANDS"/>
+            <StringItem index="57" value="VIRGINIA"/>
+            <StringItem index="58" value="WASHINGTON"/>
+            <StringItem index="59" value="WISCONSIN"/>
+            <StringItem index="60" value="WYOMING"/>
+            <StringItem index="61" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cityTextField">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="cityTextField" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.cityTextField.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="streetAddressTextField">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="streetAddressTextField" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.streetAddressTextField.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="zipTextField">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="zipTextField" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="com/smartitengineering/ui/component/Bundle.properties" key="AddressPanel.zipTextField.text" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
